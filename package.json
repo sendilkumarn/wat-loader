@@ -1,0 +1,26 @@
+{
+  "name": "wat-loader",
+  "version": "0.0.0",
+  "description": "Wat Loader to convert wat into binary",
+  "main": "index.js",
+  "repository": "https://github.com/sendilkumarn/wat-loader.git",
+  "author": "Sendil Kumar N",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --harmony --full-trace --check-leaks",
+    "webpack-defaults": "webpack-defaults"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "loader-runner": "^2.3.0",
+    "memory-fs": "^0.4.1",
+    "mocha": "^2.5.3",
+    "should": "^10.0.0",
+    "webpack": "^3.8.1",
+    "webpack-defaults": "^1.6.0"
+  },
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  }
+}
